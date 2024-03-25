@@ -50,6 +50,7 @@ You can use the following commands in the terminal:
 ```c
     h   or         help       // Print out the possible commands.
     n   or          new       // Add a new deadline.
+    d   or       delete       // Delete a new deadline.
     o   or           ok       // Mark a deadline as finished.
    ic   or   incomplete       // Mark a deadline as incomplete.
     e   or         edit       // Edit a deadline.
