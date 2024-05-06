@@ -58,5 +58,6 @@ You can use the following commands in the terminal:
    cd   or    countdown       // Display a countdown of remaining tasks.
   acd   or   acountdown       // Display a countdown of all deadlines.
     c   or        clear       // Cleares the console so you never will get lost on the screen.
+    s   or         save       // Saves deadlines in a local binary file.
    ex   or         exit       // Exit the program.
 ```
