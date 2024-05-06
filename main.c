@@ -34,7 +34,7 @@ int main(void)
             printf("  acd - countdown all deadlines: finished and unfinished\n\n");
 
             printf("    c - sets console to default\n");
-            printf("    s - save deadlines");
+            printf("    s - save deadlines\n");
             printf("   ex - exit from the program\n\n");
         }
         else if(strcmp(cmd, "n") == 0 || strcmp(cmd, "ne") == 0 || strcmp(cmd, "new") == 0)
@@ -242,8 +242,10 @@ int main(void)
         }
         else if(strcmp(cmd, "s") == 0 || strcmp(cmd, "sa") == 0 || strcmp(cmd, "sav") == 0 || strcmp(cmd, "save") == 0)
         {
+            printf("\t\tSAVE DEADLINES\n\n");
+            List = mergeSort(List);
             save_file("deadlines.bin", List);
-            printf("Deadlines are saved!\n");
+            printf("Deadlines are saved!\n\n");
         }
         free(cmd);
     }
